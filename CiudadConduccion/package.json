@@ -1,0 +1,16 @@
+{
+  "name": "ciudad-conduccion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atajos npm para compilar y ejecutar el proyecto Java con Maven",
+  "scripts": {
+    "start": "mvn -q compile exec:exec -DmainClass=com.graphics.clase6",
+    "clase1": "mvn -q compile exec:exec -DmainClass=com.graphics.clase1",
+    "clase2": "mvn -q compile exec:exec -DmainClass=com.graphics.clase2",
+    "clase3": "mvn -q compile exec:exec -DmainClass=com.graphics.clase3",
+    "clase4": "mvn -q compile exec:exec -DmainClass=com.graphics.clase4",
+    "clase5": "mvn -q compile exec:exec -DmainClass=com.graphics.clase5",
+    "clase6": "mvn -q compile exec:exec -DmainClass=com.graphics.clase6",
+    "test": "mvn -q test"
+  }
+}
